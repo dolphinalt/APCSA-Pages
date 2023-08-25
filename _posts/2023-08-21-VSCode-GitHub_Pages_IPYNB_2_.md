@@ -1,7 +1,8 @@
 ---
 title: VSCode Github Pages
 author: Ethan
-date: 2019-08-08 11:33:00 +0800
+date: 2023-08-21 11:33:00 +0800
+week: 0
 categories: ['Week0']
 tags: ['week0']
 pin: False
