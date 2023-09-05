@@ -1,7 +1,7 @@
 ---
-title: Javascript Output
+title: Javascript Output jQuery
 author: Ethan
-date: 2023-09-06 12:00:00 +0800
+date: 2023-08-16 11:33:00 +0800
 week: 2
 categories: ['Week2']
 tags: week2
@@ -353,3 +353,5 @@ This lesson teaches you about tables.  In this hack, it is important that you an
 - Describe the difference between HTML and JavaScript.
 - Describe a benefit of a table that uses JavaScript.
 
+
+# Hacks
