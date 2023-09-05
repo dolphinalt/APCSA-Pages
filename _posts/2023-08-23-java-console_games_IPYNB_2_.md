@@ -11,7 +11,7 @@ mermaid: False
 ---
 
 ## Java Kernel for Jupyter Notebooks.
-> [Install Java kernel readme}(https://github.com/SpencerPark/IJava).  Java will require an independent kernel in Jupyter Notebooks.  The instruction performed by the Teacher follows, but look to readme if you have troubles.
+> [Install Java kernel readme](https://github.com/SpencerPark/IJava).  Java will require an independent kernel in Jupyter Notebooks.  The instruction performed by the Teacher follows, but look to readme if you have troubles.
 
 ```bash
 (base) id:~$ wget https://github.com/SpencerPark/IJava/releases/download/v1.3.0/ijava-1.3.0.zip  # download IJava kernel as zip
