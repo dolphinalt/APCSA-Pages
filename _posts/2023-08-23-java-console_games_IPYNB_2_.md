@@ -4,7 +4,8 @@ author: Ethan
 date: 2023-08-23 11:33:00 +0800
 week: 1
 categories: ['Week1']
-tags: ['week1']
+tags: week1
+type: hacks
 pin: False
 mermaid: False
 ---
@@ -26,7 +27,7 @@ Available kernels:
 > College Boards Units #1, #3, and #4 and Free Response Methods and Control Structures are built into these labs.  Of course, these games are very popular in beginning programming.  They are here for reference, as they were shared by a student.
 
 
-```Java
+```java
 import java.util.Scanner; //library for user input
 import java.lang.Math; //library for random numbers
 
@@ -394,6 +395,7 @@ ConsoleGame.main(null);
     
     Choose an option.
     
+    0: Goodbye, World![0m
 
 
 ## Hacks
@@ -406,7 +408,7 @@ ConsoleGame.main(null);
 
 
 
-```Java
+```java
 import java.util.Random;
 
 public class Dice {
@@ -673,6 +675,41 @@ public class Game {
 Game.main(null);
 
 ```
+
+    |----------------------------|
+    | Welcome to Ethan's Games!  |
+    |----------------------------|
+    | 1. Higher Lower            |
+    | 2. Dice Betting            |
+    | 3. Fighters                |
+    |----------------------------|
+    |----------------------------|
+    | Enter your bet:            |
+    |----------------------------|
+    |----------------------------|
+    | your dice: 6               |
+    | dealer dice: 1             |
+    | net earnings: 10.0          |
+    |----------------------------|
+    | Roll again? (1/3)          |
+    | 1. Yes                     |
+    | 2. No                      |
+    |----------------------------|
+    |----------------------------|
+    | your dice: 2               |
+    | dealer dice: 3             |
+    | net earnings: 0.0          |
+    |----------------------------|
+    | Roll again? (2/3)          |
+    | 1. Yes                     |
+    | 2. No                      |
+    |----------------------------|
+    |----------------------------|
+    | your dice: 3               |
+    | dealer dice: 1             |
+    | net earnings: 10.0          |
+    |----------------------------|
+
 
 **An example of a very long game...**
 ```

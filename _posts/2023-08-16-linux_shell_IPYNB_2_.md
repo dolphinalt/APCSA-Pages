@@ -4,7 +4,7 @@ author: Ethan
 date: 2023-08-16 11:33:00 +0800
 week: 0
 categories: ['Week0']
-tags: ['week0']
+tags: week0, hacks
 pin: False
 mermaid: False
 ---

@@ -4,7 +4,8 @@ author: Ethan
 date: 2023-08-21 11:33:00 +0800
 week: 1
 categories: ['Week1']
-tags: ['week1']
+tags: week1
+type: hacks
 pin: False
 mermaid: False
 ---
