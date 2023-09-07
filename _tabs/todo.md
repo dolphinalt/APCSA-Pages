@@ -11,10 +11,13 @@ type: hacks
 <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/pages/todo.js"></script>
 <body onload="getNewQuote();">
-<div id = "quoteDiv">
-    <p id="quote"></p>
-    <p id="author"></p>
+<div id = "quoteDiv" class = "background">
+    <p id="quote" class="quote"></p>
+    <p id="author" class="author"></p>
 </div>
+
+<br>
+
 <div class="table-wrapper background">
     <table id="TODO" class="todo-table">
         <thead>
@@ -32,8 +35,7 @@ type: hacks
 
 <script>
     var table1 = document.getElementById("TODO").getElementsByTagName('tbody')[0];
-    var index_count = 0;
-    var index_count = localStorage.getItem("index_count");
+    var indexCount = localStorage.getItem("indexCount");
     readStorage();
     let table = new DataTable('#TODO');
     table.draw();
