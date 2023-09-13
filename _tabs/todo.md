@@ -25,6 +25,7 @@ type: hacks
             <th>Task name</th>
             <th>Class Name</th>
             <th>Deadline</th>
+            <th>Done</th>
         </thead>
         <tbody>
         </tbody>
