@@ -15,11 +15,6 @@ mermaid: False
 Click the buttons to enter their respective functions. An eval is ran on the string in the calculator screen when the equals button is pressed. This gives us the output of the mathematical operation requested.
 
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Calculator</title>
-        <meta name="description" content="">
         <style>
             .circle {
                 position: absolute;
@@ -38,7 +33,6 @@ Click the buttons to enter their respective functions. An eval is ran on the str
                 vertical-align: middle;
             }
         </style>
-    </head>
     <body style="background-color: #000101; color: #F8F8F8; margin-bottom: 1000%">
         <script>
             reset=false;
@@ -93,4 +87,3 @@ Click the buttons to enter their respective functions. An eval is ran on the str
         <div class="circle" style="background-color: #313030; top: 700px; left: 250px;">.</div>
         <div class="circle" style="background-color: #EA9B3E; top: 700px; left: 325px;" onClick="calc('=')">=</div>
     </body>
-</html>
