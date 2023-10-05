@@ -35,3 +35,38 @@ Iteration presents possible time complexity issues
 using i and j for for loops can get confusing, use something like row and column
 
 ## Anthony
+
+Make good use of builtin methods in Java
+
+# A-REEL
+
+## Emma
+
+Think of a class as a blueprint for something
+
+A lot of MC that focus on which params to put into classes
+
+Recognize what class you need to make
+
+The table is very useful!
+
+superconstructors need to be used, learn what they are
+
+## Ekam
+
+Understand all the info given to you from the question!
+
+Understand datatypes
+
+College board iterates through arrays backwards?? --> Deleting forwards shrinks list, backwards required for no shrinkage
+
+Go back and refer to the question while doing it (no extra lists/vars allowed)
+
+Make inferences about situation through the data
+
+## Ranauk
+
+- 2015 Q4
+- Good understanding of how for looks work
+- Good descriptions of his answers
+- Really good diagram for explaining how the contains method works
