@@ -153,55 +153,6 @@ public class Dog {
 Dog.main(null);
 ```
 
-
-    Failed to start the Kernel. 
-
-
-    Exception in thread "main" java.lang.UnsupportedClassVersionError: io/github/spencerpark/ijava/IJava has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
-
-
-    	at java.lang.ClassLoader.defineClass1(Native Method)
-
-
-    	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
-
-
-    	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-
-
-    	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
-
-
-    	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
-
-
-    	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
-
-
-    	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
-
-
-    	at java.security.AccessController.doPrivileged(Native Method)
-
-
-    	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
-
-
-    	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-
-
-    	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-
-
-    	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-
-
-    	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:632). 
-
-
-    View Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
-
 ### String Objects
 String objects are built-in objects in Java that you're probably pretty familiar with, but it also functions like a class, with the following properties:
 - String objects can be initialized with the new keyword
@@ -460,55 +411,6 @@ public class guessing_game {
 
 maths_demo.main(null);
 ```
-
-
-    Failed to start the Kernel. 
-
-
-    Exception in thread "main" java.lang.UnsupportedClassVersionError: io/github/spencerpark/ijava/IJava has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
-
-
-    	at java.lang.ClassLoader.defineClass1(Native Method)
-
-
-    	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
-
-
-    	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-
-
-    	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
-
-
-    	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
-
-
-    	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
-
-
-    	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
-
-
-    	at java.security.AccessController.doPrivileged(Native Method)
-
-
-    	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
-
-
-    	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-
-
-    	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-
-
-    	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-
-
-    	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:632). 
-
-
-    View Jupyter <a href='command:jupyter.viewOutput'>log</a> for further details.
-
 
 ## Hacks
 > Complete all popcorn hacks

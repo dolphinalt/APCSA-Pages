@@ -256,18 +256,6 @@ ArrayList ArrayList = new ArrayList<int>();
 ```
 
 
-    |   ArrayList ArrayList = new ArrayList<int>();
-
-    unexpected type
-
-      required: reference
-
-      found:    int
-
-    
-
-
-
 ```java
 //This code works
 ArrayList ArrayList = new ArrayList<Integer>();
