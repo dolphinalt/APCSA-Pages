@@ -2,9 +2,9 @@
 title: Objects
 author: Ethan
 date: 2023-10-05 11:33:00 +0800
-week: 4
-categories: ['Week4']
-tags: week4
+week: 6
+categories: ['Week6']
+tags: week6
 type: hacks
 pin: False
 mermaid: False
