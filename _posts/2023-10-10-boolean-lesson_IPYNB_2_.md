@@ -46,7 +46,7 @@ A boolean is a type of variable that can evaluate to true or false. In Java, the
 The format is `val1 <oper> val2`, and will return a boolean given the state of the system. Like all booleans, this can only return two values `true` or `false` 
 
 
-```Java
+```java
 public class Example {
 
     private static boolean isAdult = false;
@@ -83,7 +83,7 @@ On the other hand, if you are ever trying to compare String objects, use the Str
 **Note the utilization of the `compareTo` in a custom class in order to compare two classes**
 
 
-```Java
+```java
 public class ComparisonExample implements Comparable<ComparisonExample> {
     private int comp;
     private int comp2;
@@ -117,7 +117,7 @@ Describe this code and the code above using comments. Talk about how we define t
 **In your notes** Compare and contrast `Comparator<>` and `compareTo`
 
 
-```Java
+```java
 ComparisonExample c = new ComparisonExample(2, 2);
 ComparisonExample v = new ComparisonExample(2, 3);
 System.out.println(c.compareTo(v)); // Allows comparison of these two instances of a class
@@ -139,7 +139,7 @@ else { System.out.println("it is not"); }
 You can use the .equals method to compare the contents of two strings. To test if the two strings are the same or not, you can use Sysout (System.out.println) so that the console will provide a value that is either true or false. 
 
 
-```Java
+```java
 System.out.println("hello".equals("hello")); // will return true, since the strings are the same
 System.out.println("Hello".equals("hello")); // will return false, as the one thing that separates these two strings is that the h is capitalized in the first string
 ```
@@ -153,7 +153,7 @@ System.out.println("Hello".equals("hello")); // will return false, as the one th
 The code below compares the contents of two arrays to see if they are equal. It uses the `equals` method. However, as we see below, this is rather shallow as opposed to deep comparison.
 
 
-```Java
+```java
   int arr1[] = { 1, 2, 3 };
   int arr2[] = { 1, 2, 3 };
 
@@ -177,7 +177,7 @@ The code below compares the contents of two arrays to see if they are equal. It 
 All of the methods you just saw are examples of **regular equality.** Whereas regular equality methods such as the .equals method compares the content of the objects themselves to check if they are equal (i.e. point to the same object), deep equality methods such as the .deepequals method compares the content of nested objects or arrays to determine equality. 
 
 
-```Java
+```java
 import java.util.Arrays;
 
 public class DeepEquality {
@@ -214,7 +214,7 @@ DeepEquality.main(null);
 Identify the issue(s) in the code below (hint: try running it yourself). Then, make the necessary corrections to ensure that the program runs as intended.
 
 
-```Java
+```java
 public class Challenge {
 
     private static boolean isName = false;
@@ -266,4 +266,41 @@ Here is how the method should work:
 (3) Print the necessary dialogue (ex. [year] is/is not a leap year) AND return the value of any boolean(s) used
 
 
+
+
+
+```java
+import java.util.Scanner;
+
+public class Hacks {
+
+    public static boolean isLeap(int year) {
+        return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter a year!");
+
+        String year = scan.nextLine();
+        System.out.println("Your year: " + year);
+
+        if (isLeap(Integer.parseInt(year))) {
+            System.out.println("leap year!");
+        } else {
+            System.out.println("Not a leap year!");
+        }
+        System.out.println(isLeap(Integer.parseInt(year)));
+    }
+}
+
+Hacks.main(null);
+```
+
+    Enter a year!
+    Your year: 2024
+    leap year!
+    true
 
