@@ -95,3 +95,5 @@ I expected to do not great on the first college board quiz, BUT did not expect t
 ### **Trimester 1 reflection: **
 
 This trimester was pretty successful. We had a good project, I learned a lot of backend Devops stuff as well as a deeper understanding of algorithims that I will be sure to utilize in my next USACO competition. I also gained a lot of valuable insight into my weaknesses and what I should do to fix them. In the future, I would like to get much more involved with the backend and not just focus on the frontend and devops side of things. For trimester 2, I plan to get work done sooner as well, and to make sure that I have a good team. I had many bad experiences with one of our team members not doing the work they were supposed to be doing, and that lead me to have to create my lesson completely by myself. I will also get work done sooner, that way we can spend more time optimizing and refining the rough edges of our project. This way, not only is it techincally good, but also good in a presentation and review setting as well.
+
+Here's a link to the Peer Scoring of our final project: [Link](https://github.com/Cosmic-Carnage/Issues/issues/36)
