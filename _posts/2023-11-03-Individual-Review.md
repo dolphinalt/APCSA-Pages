@@ -90,4 +90,6 @@ College Board Quiz notes: 22/40
 
 I expected to do not great on the first college board quiz, BUT did not expect to do this bad. I have found that this was due to me not being very familiar with the Java questions. I need to work more with Java and experiment with creating my own projects. I also need to review the college board lessons more, and review the lessons created by each of the teams. With that being said, here is the link to the questions I got wrong and explanations for them all: [Link](https://github.com/dolphinalt/APCSA-Pages/issues/4)
 
-Trimester 1 reflection: 
+### **Trimester 1 reflection: **
+
+This trimester was pretty successful. We had a good project, I learned a lot of backend Devops stuff as well as a deeper understanding of algorithims that I will be sure to utilize in my next USACO competition. I also gained a lot of valuable insight into my weaknesses and what I should do to fix them. In the future, I would like to get much more involved with the backend and not just focus on the frontend and devops side of things. For trimester 2, I plan to get work done sooner as well, and to make sure that I have a good team. I had many bad experiences with one of our team members not doing the work they were supposed to be doing, and that lead me to have to create my lesson completely by myself. I will also get work done sooner, that way we can spend more time optimizing and refining the rough edges of our project. This way, not only is it techincally good, but also good in a presentation and review setting as well.
