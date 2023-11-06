@@ -25,7 +25,9 @@ I worked on U6 - Arrays. Detailed review on lessons [here](https://github.com/do
 | U5 | 0.85 | [Link](https://docs.google.com/spreadsheets/d/1reH2rO8kZSXO-6_C0YnWGrSvvaeDE18OmsW1VkLYVeI/edit#gid=248984290) |
 | U6 | N/A | We were teaching this lesson |
 | U7 | N/A | We were teaching this lesson |
-| U8 | ? | Link |
+| U8 | not out | not out |
+| U9 | not out | not out |
+| U10 | not out | not out |
 | **Total** | 4.5/5 | N/A |
 
 ## Studying for Exam
