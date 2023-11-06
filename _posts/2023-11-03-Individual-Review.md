@@ -65,7 +65,7 @@ function merge(left, right, prop) {
     let rightIndex = 0;
 
     while (leftIndex < left.length && rightIndex < right.length) {
-        if (left[leftIndex][prop] > right[rightIndex][prop]) { // Reverse the comparison
+        if (left[leftIndex][prop] > right[rightIndex][prop]) { // Reverse the comparison for greatest to least
             result.push(left[leftIndex]);
             leftIndex++;
         } else {
@@ -86,6 +86,8 @@ Adjunct activity: Created frontend code for login, created backend code for JWT 
 
 See rest of blog site for coding and usage of blogs.
 
-College Board Quiz notes:
+College Board Quiz notes: 22/40
+
+I expected to do not great on the first college board quiz, BUT did not expect to do this bad. I have found that this was due to me not being very familiar with the Java questions. I need to work more with Java and experiment with creating my own projects. I also need to review the college board lessons more, and review the lessons created by each of the teams. With that being said, here is the link to the questions I got wrong and explanations for them all: [Link](https://github.com/dolphinalt/APCSA-Pages/issues/4)
 
 Trimester 1 reflection: 
