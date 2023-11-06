@@ -59,7 +59,7 @@ Initializing 2D arrays can be done in multiple different ways. Note: In Java whe
 1) Initializing and populating the array in one go:
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args) {
         int[][] Array1 = { // 2d Array of integers
@@ -86,7 +86,7 @@ Main.main(null)
 
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args){
     String[][] Array2 = { // 2d Array of strings
@@ -114,7 +114,7 @@ Main.main(null)
 
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args){
         Object[][] Array3 = { // 2d Array of objects allows for having varying types in the same 2d array
@@ -143,7 +143,7 @@ Main.main(null)
 2) Creating an empty 2D array and then assigning values to individual elements as through accessing and changing each value via their corresponding row and column index: 
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args){
         int[][] myArray = new int[3][3]; // Defines the size of the array, think of the first number as x and the second number as y, for rows and columns.
@@ -178,7 +178,7 @@ Main.main(null)
 3) Using a nested loop to manually populate each element:
 
 
-```Java
+```java
 public class Main {
         public static void main(String[] args){
         int rows = 3; // Define number of rows and columns here as variables
@@ -213,7 +213,7 @@ Main.main(null)
 ### Popcorn Hack: Create a 2D Array with random values
 
 
-```Java
+```java
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
@@ -266,7 +266,7 @@ System.out.print(desiredValue);
 Assign the "coordinate point" of the desired value as a variable, using the "x" value for row number and "y" value for column number.
 
 
-```Java
+```java
 // Executable Version:
 public class Main {
     public static void main(String[] args) {
@@ -307,7 +307,7 @@ System.out.print(myArray[2][2]);
 ```
 
 
-```Java
+```java
 // Executable Version:
 public class Main {
     public static void main(String[] args) {
@@ -333,7 +333,7 @@ Main.main(null)
 ### Popcorn Hack: Print all the values on this 2D Array and update the last value to be 12.
 
 
-```Java
+```java
 // basic scaffolding to get you started :)
 public class Main {
     public static void main(String[] args) {
@@ -396,7 +396,7 @@ for(int i = 0; i < myArray.length; i++){
 ```
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args){
         int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9}; // 1d array of integers
@@ -441,7 +441,7 @@ Main.main(null)
 ### Popcorn Hack: Traverse the following array and only print the values divisible by 7
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args) {
         int[][] myArray = {
@@ -471,7 +471,7 @@ Main.main(null)
 - The outer loop traverses the rows and the inner loop traverses the columns or the elements within the rows. Here is an example bellow of row-major order traversals:
 
 
-```Java
+```java
 public class rowMajorOrder {
     public static void main(String[] args){
         int[][] my2dArray = { // 2d array of integers
@@ -507,7 +507,7 @@ rowMajorOrder.main(null)
 
 
 
-```Java
+```java
 // Variation that only applies to forward row-wise major traversal
 
 public class rowMajorTraversalAlt{
@@ -537,7 +537,7 @@ rowMajorTraversalAlt.rowMajorOrderAlt(new int[][]{
 - The outer loop will traverse through the columns and the inner loop will traverses through each element in the columns or the rows. Here is an example bellow of column-major order traversals: 
 
 
-```Java
+```java
 public class columnWiseTraversal{
     public static void main(String[] args){
         int[][] my2dArray = { // 2d array of integers
@@ -582,7 +582,7 @@ Linear search is a simple and sequential searching algorithm. It is used to find
 Below is the implementation for linear search in 2D arrays
 
 
-```Java
+```java
 // Linear Search in 2D arrays
 import java.util.Arrays;
  
@@ -619,7 +619,7 @@ Binary Search treats the 2D matrix as a 1D array by converting the indices.
 These searching algorithms are fundamental and widely used. Practice applying them to different scenarios to solidify your understanding. Additionally, consider exploring more advanced searching techniques for 2D arrays as you become more proficient.
 
 
-```Java
+```java
 public class Main {
     public static int[] binarySearch(int[][] matrix, int target) {
         int rows = matrix.length;
@@ -653,7 +653,7 @@ public class Main {
 Binary search is an efficient method of searching in an array. Binary search works on a sorted array. At each iteration the search space is divided in half, this is the reason why binary search is more efficient than linear search
 
 
-```Java
+```java
 // Binary Search on sorted 2D array
 import java.util.Arrays;
  
@@ -698,7 +698,7 @@ class GFG {
 ## Popcorn hacks - extra credit
 
 
-```Java
+```java
 import java.util.Arrays;
 
 public class MergeSort2DArray {
@@ -1038,7 +1038,7 @@ Since 2D arrays are really arrays of arrays you can also use a nested enhanced f
 
 
 
-```Java
+```java
 String[][] array;
 // Nested For-each loops that traverse a 2D String array
 for (String[] innerArray : array)
@@ -1051,7 +1051,7 @@ for (String[] innerArray : array)
 ```
 
 
-```Java
+```java
 public class Average
 {
 
@@ -1090,7 +1090,7 @@ Here's an example of an algorithm that was needed for the real Collegeboard APCS
 For this problem, the question asked for the student to write the `countIncreasingCols` method, which returns the number of columns in `grid` that are in increasing order. `grid` is a 2D array with randomly populated numbers.
 
 
-```Java
+```java
 public int countIncreaseCols() {
     int count = 0;
     for (int j = 0; j < grid[0].length; j++) { // Iterates through columns
@@ -1127,7 +1127,7 @@ public int countIncreaseCols() {
 Initialize a 5 x 5 2D array that is populated by random values.
 
 
-```Java
+```java
 // Add the code here:
 
 public class random2DA {
@@ -1167,7 +1167,7 @@ random2DA.main(null);
 - b) Find the values from part a) using row major and column major order and print the values in each respective order.
 
 
-```Java
+```java
 public class Problem2
 {
     public static void main(String[] args)
@@ -1215,7 +1215,7 @@ The expected output is:
 
 
 
-```Java
+```java
 public class Problem3 {
     public static void main(String[] args) { 
         int[][] myarr = { // 2d array of integers
@@ -1245,7 +1245,7 @@ Problem3.main(null);
 Replace the “ADD CODE HERE” below with the code to declare and create a 3 by 3 two-dimensional int array named table. The finished code will print the values 0 to 8.
 
 
-```Java
+```java
 public class Test1
 {
 
@@ -1281,7 +1281,7 @@ Test1.main(null);
 Replace the “ADD CODE HERE” below with the code to declare and initialize a two-dimensional String array called students with the names “Brice, Marvin, Anna” in the first row and “Kamal, Maria, Elissa” in the second. The finished code will print all the names in the array starting with all in the first row followed by all in the second row.
 
 
-```Java
+```java
 public class Test1
 {
     public static void main(String[] args)
