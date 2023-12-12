@@ -51,12 +51,6 @@ JQuery is a JavaScript library that simplifies JavaScript programming. It is use
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <style>
-  body {
-    background-color: #ffe1f4; /* Barbie Pink */
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
 
   table {
     border-collapse: collapse;
