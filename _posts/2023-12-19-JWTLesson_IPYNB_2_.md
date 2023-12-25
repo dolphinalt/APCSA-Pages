@@ -459,21 +459,21 @@ Additional Security Considerations
 2. MC Knowledge test (5) 
     - Which part of the JWT contains the actual data (claims)? 
         - Header
-        - Payload
+        - <mark>Payload</mark>
         - Signature
         - Encryption
     - What is the purpose of the header in a JWT?
         - It contains the signature for the JWT.
-        - It identifies the algorithm used to generate the signature. 
+        - <mark>It identifies the algorithm used to generate the signature.</mark>
         - It holds the encrypted data. 
         - It contains the user's information.
     - How are the parts of a JWT (header, payload, and signature) separated?
         - Comma
-        - Period
+        - <mark>Period</mark>
         - Colon
         - Semicolon
     - Which algorithm is commonly used for JWT signatures?
-        - HMAC (Hash-based Message Authentication Code)
+        - <mark>HMAC (Hash-based Message Authentication Code)</mark>
         - RSA (Rivest-Shamir-Adleman)
         - AES (Advanced Encryption Standard)
         - MD5 (Message Digest Algorithm 5)
@@ -481,4 +481,7 @@ Additional Security Considerations
         - Only via HTTP headers
         - Only as query parameters in the URL
         - In the request body as JSON
-        - Any of the above, depending on the application
+        - <mark>Any of the above, depending on the application</mark>
+
+## Implementation
+screenshots of working JWT found (here)[https://github.com/dolphinalt/APCSA-Pages/issues/8]
