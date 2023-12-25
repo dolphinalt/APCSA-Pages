@@ -484,4 +484,4 @@ Additional Security Considerations
         - <mark>Any of the above, depending on the application</mark>
 
 ## Implementation
-screenshots of working JWT found (here)[https://github.com/dolphinalt/APCSA-Pages/issues/8]
+screenshots of working JWT found [here](https://github.com/dolphinalt/APCSA-Pages/issues/8)
