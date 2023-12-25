@@ -316,6 +316,10 @@ Here is a diagram that makes it easier to understand the process tha happens bet
 
 Popcorn Hack: Create your own diagram to help visualize the JWT process
 
+(in case it doesn't process html at all, /assets/img/jwtdiagram.png is where the image is at)
+
+<img alt="diagram at /assets/img/jwtdiagram.png if it doesn't load" src="{{site.baseurl}}/assets/img/jwtdiagram.png">
+
 <h2> JWT Walkthrough </h2>
 - Clone this repo and follow along in each JWT file: https://github.com/vivianknee/jwtlessonBackend.git
 
