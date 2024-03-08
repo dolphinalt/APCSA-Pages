@@ -36,4 +36,16 @@ Taking a look at my key commits, here are a few commits regarding the stock data
 
 [stock stats endpoint](https://github.com/CSA-AI/CSA_AI_Backend/commit/84f18ee1ece4c21432498966d4609fe540765b7f)
 
+Lets take a look at my github analytics as well:
+
+![GitHub Analytics](https://i.postimg.cc/zXJ4H45y/Screen-Shot-2024-03-08-at-8-49-16-AM.png)
+
+![GitHub Analytics 2](https://i.postimg.cc/MTqmr29R/Screen-Shot-2024-03-08-at-8-51-35-AM.png)
+
 ## **GitHub Pages Blog**
+
+As can be seen above, my blog is complete and well made. I also been going around to get feedback on my FRQs with my team members to solicit feedback and improve my work.
+
+## **Project Work**
+
+Refer to the commits, github key commits, and analytics for proof of my work on the project.
