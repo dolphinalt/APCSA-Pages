@@ -59,10 +59,12 @@ printArray(insertionSort.insertionSort(array));
     0 1 2 3 4 5 6 7 8 9 
 
 
-## Selection Sort
+![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/2/24/Sorting_insertion_sort_anim.gif)
 
+![Bubble Sort](https://upload.wikimedia.org/wikipedia/commons/5/54/Sorting_bubblesort_anim.gif)
 
-### Pseudocode
+![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/3/3e/Sorting_selection_sort_anim.gif)
 
+![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Merge-sort-example-300px.gif/220px-Merge-sort-example-300px.gif)
 
-### Code
+![Quick Sort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
