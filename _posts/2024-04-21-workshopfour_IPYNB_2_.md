@@ -1,8 +1,11 @@
 ---
-title: Workshop 4 - Lesson on 2D Arrays and Traversing them
-description: Unit 8 of CB
 toc: True
-layout: post
+comments: True
+layout: notebook
+title: Workshop 4
+description: Workshop 4 hacks
+type: hacks
+permalink: None
 ---
 
 <h2>  8.1: Declaring + Initializing 2D Arrays; Determining their  </h2>
@@ -53,7 +56,7 @@ r: number of rows (number of arrays)
 c: number of columns (length of each array)
 
 
-```Java
+```java
 public class Seasons {
 
     private String[][] Seasons = new String[2][3];
@@ -110,7 +113,7 @@ To update the element of a 2D array, all you need to do is reference its locatio
 
 
 
-```Java
+```java
 public class Seasons {
 
     private String[][] seasons = new String[2][3];
@@ -138,7 +141,7 @@ Seasons.main(null);
 
 
 
-```Java
+```java
 public void print2D(int[][] array) {
     for (int[] i : array) {
         for (int j : i) {
@@ -206,7 +209,7 @@ Show how they would write code that changes the grade for the 3rd period class
 ![image](https://github.com/John-sCC/jcc_frontend/assets/82348259/dee9cdf9-9d6f-4b9c-b5e2-35cb9fa58c9b)
 
 
-```Java
+```java
 public class RowMajorIndexing {
     public static void main(String[] args) {
         int[][] matrix = {
@@ -241,7 +244,7 @@ RowMajorIndexing.main(null)
 
 
 
-```Java
+```java
 public class ColumnMajorIndexing {
     public static void main(String[] args) {
         int[][] matrix = {
