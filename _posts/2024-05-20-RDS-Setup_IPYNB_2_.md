@@ -16,19 +16,19 @@ Before we can do anything further, we need to, obviously, setup RDS. Fortunately
 ### 1.a Getting Started
 Open up the amazon RDS page and click on create database.
 
-![Orange button Create Database](https://media.discordapp.net/attachments/642877065195946004/1244909150459265085/Screen_Shot_2024-05-28_at_12.04.26_AM.png?ex=6656d37e&is=665581fe&hm=5642356947516909613bba1c8ce81ebc7c9c6094ad59f4fa4e0433d3c458c176&=&format=webp&quality=lossless&width=1047&height=536)
+![Orange button Create Database](https://cdn.discordapp.com/attachments/642877065195946004/1244909150459265085/Screen_Shot_2024-05-28_at_12.04.26_AM.png?ex=665ebc7e&is=665d6afe&hm=07e9a9751297e2f096f0e5398a3f8ce1b7e624eff598e13a4e4b7fcf94ce7025&)
 
 From here, we have 2 choices. Standard and Easy create. For this blog, lets use the standard create.
 
 ### 1.b Select Database Type
 Here we have several different database types that can be selected. Select the database type you want to use. For this blog, we will use MySQL. Most of the steps will (probably) be the same (or at least similar) for other database types.
 
-![Select Database Type](https://media.discordapp.net/attachments/642877065195946004/1244910833809756231/Screen_Shot_2024-05-28_at_12.11.06_AM.png?ex=6656d510&is=66558390&hm=c0d5fde4927c2cbe3e18ded15ba5def3ca12eca22b1b157440ccf84920a4bf1a&=&format=webp&quality=lossless&width=1051&height=536)
+![Select Database Type](https://cdn.discordapp.com/attachments/642877065195946004/1244910833809756231/Screen_Shot_2024-05-28_at_12.11.06_AM.png?ex=665ebe10&is=665d6c90&hm=4aa5c6ddee3e66ca1396a5232b6dbf9273629fa76dd5bdd9f30a7a2d8d7a8c35&)
 
 ### 1.c DB Templates
 There are 3 DB templates: Production, Dev/Test, and Free Tier. Each one has it's own use cases and strengths.
 
-![DB Templates](https://media.discordapp.net/attachments/642877065195946004/1244911966351265822/Screen_Shot_2024-05-28_at_12.15.37_AM.png?ex=6656d61e&is=6655849e&hm=4f58c6f6423af441bdb3179b123a374fa04d195a9520770382facbd70041247a&=&format=webp&quality=lossless)
+![DB Templates](https://cdn.discordapp.com/attachments/642877065195946004/1244911966351265822/Screen_Shot_2024-05-28_at_12.15.37_AM.png?ex=665ebf1e&is=665d6d9e&hm=ca98e9090de6e6131ecb42f06b5dd91e24d60c90f048b56ef0c5e95bdd7bce1f&)
 
 This table will break it down:
 
@@ -45,7 +45,7 @@ Lets give our database a name, and a username and password. Make sure to remembe
 
 Next, lets set the username and password. Enter a master username, usually it's just admin. For passwords, I would recommend using self managed, as it is a lot simpler to use. Specify, confirm, and **note down** your master password. IF YOU LOSE THIS PASSWORD YOU ARE ***__COOKED__***
 
-![DB Details](https://media.discordapp.net/attachments/642877065195946004/1244912879992569927/Screen_Shot_2024-05-28_at_12.19.15_AM.png?ex=6656d6f7&is=66558577&hm=b5294418e2a95ab7f786ca57bfaab3aa9883b4edf757d906ba834d7a008ed1aa&=&format=webp&quality=lossless&width=675&height=536)
+![DB Details](https://cdn.discordapp.com/attachments/642877065195946004/1244912879992569927/Screen_Shot_2024-05-28_at_12.19.15_AM.png?ex=665ebff7&is=665d6e77&hm=e1f1e8e2574df413aa624514629bfb3a2640ce262bdbd5d53a1e60d2afb86ec0&)
 
 ### 1.e Instance Configuration
 We don't really have to worry about this section!
@@ -67,35 +67,35 @@ The first big choice is whether to connect your RDS to an EC2 or not. Both have 
 
 We don't really have t worry about changing the VPC, as the default one is fine.
 
-![Connectivity](https://media.discordapp.net/attachments/642877065195946004/1244914493562294282/Screen_Shot_2024-05-28_at_12.25.38_AM.png?ex=6656d878&is=665586f8&hm=19eb4d672c148984e8821ea2426e91502847e5834d88dab43dab8bda664fd778&=&format=webp&quality=lossless)
+![Connectivity](https://cdn.discordapp.com/attachments/642877065195946004/1244914493562294282/Screen_Shot_2024-05-28_at_12.25.38_AM.png?ex=665ec178&is=665d6ff8&hm=21dfd3f7b8c7708ca8ad60f5189a061f7838f33c0aa570355619d797a4239bb3&)
 
 If you're not using an EC2, select yes on public access, otherwise you will not be able to access the RDS. If you're using an EC2 in the same VPC, it would probably be in the best interest of security to select no.
 
 If you are using an EC2, you can select the security group that the EC2 is in. If you are not using an EC2, you can select the security group that the RDS is in. For this blog, we will not be using an EC2, so we will select the security group that the RDS is in. The group will probably end up being Default if you are doing the same thing as me.
 
-![Connectivity](https://media.discordapp.net/attachments/642877065195946004/1244914829358137415/Screen_Shot_2024-05-28_at_12.26.58_AM.png?ex=6656d8c8&is=66558748&hm=7d389dc12efccb3e13ca9dc2a5b680ef7c0695a0bc714279f8f00c7e4b989ec9&=&format=webp&quality=lossless&width=694&height=536)
+![Connectivity](https://cdn.discordapp.com/attachments/642877065195946004/1244914829358137415/Screen_Shot_2024-05-28_at_12.26.58_AM.png?ex=665ec1c8&is=665d7048&hm=09cad316f1b4ef81b283c5549998730dca03d329b2297ba6b59fbde29a81f208&)
 
 Nothing else really has to be done here except for the RDS Proxy which just makes your database more secure. However, it isn't nesscary and it is also a paid feature.
 
 ### 1.h Tags, Authentication, and Monitoring
 Don't worry about adding any tags to your RDS, but do make sure your RDS is set to Password Authentication. Otherwise, you won't be able to properly access your RDS. Enhanced monitoring isn't required but is a nice feature to have when debugging.
 
-![Image](https://media.discordapp.net/attachments/642877065195946004/1244916279249469471/Screen_Shot_2024-05-28_at_12.32.46_AM.png?ex=6656da22&is=665588a2&hm=7a97fbe7ce0f1a1578686614bc3cccdb067caf851bf948f8facae7bf9ffd847b&=&format=webp&quality=lossless&width=650&height=536)
+![Image](https://cdn.discordapp.com/attachments/642877065195946004/1244916279249469471/Screen_Shot_2024-05-28_at_12.32.46_AM.png?ex=665ec322&is=665d71a2&hm=84ae7c825d9816114a909e132b83725e030ba3c26af79b232cdfffd9b132dfad&)
 
 ### 1.i Additional Options
 Most people skip this section which is why their RDS doesn't work. **PLEASE PAY ATTENTION TO THIS SECTION!** Expand the Additional Options dropdown first.
 
 Specify a database name for the RDS. **If you do not specify a database name, Amazon RDS does not create a database.** For this blog, we'll use the name "RDSDemoDB". The other options can be kept default.
 
-![Name Settings](https://media.discordapp.net/attachments/642877065195946004/1244917298926583859/Screen_Shot_2024-05-28_at_12.36.45_AM.png?ex=6656db15&is=66558995&hm=484e2d851d2e4ecb34c99196e25b2d8d0b79c525e5b23e81606e83d93d069750&=&format=webp&quality=lossless)
+![Name Settings](https://cdn.discordapp.com/attachments/642877065195946004/1244917298926583859/Screen_Shot_2024-05-28_at_12.36.45_AM.png?ex=665ec415&is=665d7295&hm=c2adfe50daf5e9a9e4960fa907e7e515bcd8e134df335974773e8cc8b6433b1e&)
 
 Make sure to enable backups, as that is one of the main strengths of an RDS that allow it to be so reliable.
 
-![Backup Settings](https://media.discordapp.net/attachments/642877065195946004/1244917688166514688/Screen_Shot_2024-05-28_at_12.38.22_AM.png?ex=6656db72&is=665589f2&hm=4db05b900e92be979b46244d04efc0276d31c287845823d2e1132561788987a8&=&format=webp&quality=lossless&width=795&height=536)
+![Backup Settings](https://cdn.discordapp.com/attachments/642877065195946004/1244917688166514688/Screen_Shot_2024-05-28_at_12.38.22_AM.png?ex=665ec472&is=665d72f2&hm=459a8167523c5c27348e1a6dd1def2322d83e7f041659812d57f092068a6a7c2&)
 
 Enable encryption logging, and deletion protection as you please, just keep in mind that disabling these settings may be bad for the security of your RDS.
 
-![Best Practice Settings](https://media.discordapp.net/attachments/642877065195946004/1244917833780170793/Screen_Shot_2024-05-28_at_12.38.54_AM.png?ex=6656db95&is=66558a15&hm=b4bdc469b9682a8aa7532c2fafc9fb0afa076345798f132aa0275265cf21010f&=&format=webp&quality=lossless&width=482&height=536)
+![Best Practice Settings](https://cdn.discordapp.com/attachments/642877065195946004/1244917833780170793/Screen_Shot_2024-05-28_at_12.38.54_AM.png?ex=665ec495&is=665d7315&hm=5aa498fa6dcebada9030b774a99ba1bb38a5bc403e8c5ae07e136441fff81d3d&)
 
 
 ### 1.j Review and Create
